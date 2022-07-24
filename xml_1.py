@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as et
 
 
-def test_1():
+def xml_1():
 
     # Strings are better contained by tags to avoid creating trailing spaces.
     a_xml_data = '''
@@ -37,4 +37,4 @@ def test_1():
 
 if __name__ == '__main__':
 
-    test_1()
+    xml_1()
